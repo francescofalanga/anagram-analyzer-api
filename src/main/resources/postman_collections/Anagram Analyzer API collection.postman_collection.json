@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "05556319-c8a0-452b-be29-c9d73bb43787",
+		"name": "Anagram Analyzer API collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30844736"
+	},
+	"item": [
+		{
+			"name": "Analyze if two words are anagram",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/anagram?word1={replace_word_1}&word2={replace_word_2}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"anagram"
+					],
+					"query": [
+						{
+							"key": "word1",
+							"value": "{replace_word_1}"
+						},
+						{
+							"key": "word2",
+							"value": "{replace_word_2}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get historicals anagrams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/anagram/historical?word={replace_word}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"anagram",
+						"historical"
+					],
+					"query": [
+						{
+							"key": "word",
+							"value": "{replace_word}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
