@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @Validated
-@RequiredArgsConstructor
 @RequestMapping(value = "/api/v1")
 @RestController
 public class AnagramAnalyzerController {
