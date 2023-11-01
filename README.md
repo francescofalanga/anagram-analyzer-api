@@ -7,7 +7,7 @@ to call APIs that
 
 This APIs can be called for example, from a fronted,
 and inside the main logic to detect if two words are an anagram and the historicals 
-are managed by an external library **<see https://github.com/francescofalanga/anagram-analyzer-app>**
+are managed by an external library **<see https://github.com/francescofalanga/anagram-analyzer-app >**
 
 ## Prerequisite
 
