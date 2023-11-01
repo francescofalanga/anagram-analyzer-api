@@ -41,18 +41,18 @@ You can call the two APIs
 
 ### Detect if two words are an anagram
 
-Call the API: localhost:8080/api/v1/anagram?word1={replace_word_1}&word2={replace_word_2} 
+Call the API: **localhost:8080/api/v1/anagram?word1={replace_word_1}&word2={replace_word_2}**
 
 ### Retrieve the historical Anagrams
 
-localhost:8080/api/v1/anagram/historical?word={replace_word}
+Call the API: **localhost:8080/api/v1/anagram/historical?word={replace_word}**
 
 ### Use Postman
 In the source code, you can find a **Postman Collection** to be imported
 under the folder **/src/main/resources/postman_collections/Anagram Analyzer API collection.postman_collection.json**
 
 ## License
-"This project is licensed under the terms of the **MIT** license.<br/>
+This project is licensed under the terms of the **MIT** license.<br/>
 The code in this repository is covered by the included license.
 
 ## Support
